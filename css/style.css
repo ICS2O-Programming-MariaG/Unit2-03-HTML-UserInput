@@ -1,0 +1,17 @@
+/* Created by: MariaG
+* Created on: March 24, 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit2-03-HTML-UserInput
+*/
+
+body {
+  background-color: #ffffdb;
+}
+
+h1 {
+  background-color: #fddb91;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
