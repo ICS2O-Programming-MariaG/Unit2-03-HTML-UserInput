@@ -1,4 +1,3 @@
-
 // Copyright (c) 2022 Maria Goemans All rights reserved
 //
 // Created by: Maria G
@@ -13,6 +12,5 @@ function enterClicked() {
   //Declaring the number variable as the same as the inputted value
   let number = document.getElementById("times-eaten").value
   //Adding text displaying user input below other elements on the webpage after the button is clicked
-  document.getElementById('display').innerHTML = "Your name is " + name + ", your favourite food is " + favFood + " and you eat this food " + number + " times per month."
+  document.getElementById('display').innerHTML = "Your name is " + name + ", your favourite food is " + favFood + " and you eat this food " + number + " time(s) per month."
 }
-//NOTE TO SELF: add header to js so it doesn't disappear

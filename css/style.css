@@ -25,9 +25,14 @@ h1 {
   margin-bottom: 30px;
 }
 
-#display {
+#green {
   background-color: #ccfdbb;
   padding: 20px;
   width: 80%;
   margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+#display{
+  color: #103170;
 }
