@@ -14,4 +14,20 @@ h1 {
   width: 80%;
   margin-left: 10%;
   text-align: center;
+  margin-top: 5%;
+}
+
+#blue {
+  background-color: #aed6f1;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+
+#display {
+  background-color: #ccfdbb;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
 }

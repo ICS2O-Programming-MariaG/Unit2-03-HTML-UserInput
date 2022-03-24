@@ -21,22 +21,25 @@
     <!-- Link to JS file -->
     <script src="./js/script.js"></script>
     <h1>Using User Input with a JS File</h1>
-    <h3>Welcome!</h3>
-    <p>This website takes your input and calls a function in Javascript! Please enter your information below:</p>
-    <!--Space for user input -->
-    <p>
-      <form action="javascript:enterClicked()">
-        <label for="name">First Name</label>
-        <input type="text" id="first-name" placeholder="Your Name"><br><br>
-        <label for="food">Favourite Food</label>
-        <input type="text" id="food-entered" placeholder="A delicious food"><br><br>
-        <label for="time">How Many Times You Eat It Per Month</label>
-        <input type="number" id="times-eaten" placeholder="Number"><br><br>
-        <input type="submit" value="Enter">
-      </form>
-    </p>
+    <div id="blue">
+      <h3>Welcome!</h3>
+      <p>This website takes your input and calls a function in Javascript! Please enter your information below:</p>
+      <!--Space for user input -->
+      <p>
+        <form action="javascript:enterClicked()">
+          <label for="name">First Name</label>
+          <input type="text" id="first-name" placeholder="Your Name"><br><br>
+          <label for="food">Favourite Food</label>
+          <input type="text" id="food-entered" placeholder="A delicious food"><br><br>
+          <label for="time">How Many Times You Eat It Per Month</label>
+          <input type="number" id="times-eaten" placeholder="Number"><br><br>
+          <input type="submit" value="Enter">
+        </form>
+      </p>
+    </div>
     <!-- Div for displaying user information -->
     <div id="display">
+      <h3>Click the button to display your information!</h3>
     </div>
   </body>
 </html>
