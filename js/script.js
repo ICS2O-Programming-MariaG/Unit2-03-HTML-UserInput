@@ -15,3 +15,4 @@ function enterClicked() {
   //Adding text displaying user input below other elements on the webpage after the button is clicked
   document.getElementById('display').innerHTML = "Your name is " + name + ", your favourite food is " + favFood + " and you eat this food " + number + " times per month."
 }
+//NOTE TO SELF: add header to js so it doesn't disappear
