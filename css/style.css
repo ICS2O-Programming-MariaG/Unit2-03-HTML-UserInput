@@ -36,3 +36,6 @@ h1 {
 #display{
   color: #103170;
 }
+
+/* Next line is to solve a problem with Super Linter*/
+\n
